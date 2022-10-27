@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		ACCABF722902D00B00F90865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABF712902D00B00F90865 /* AppDelegate.swift */; };
 		ACCABF742902D00B00F90865 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABF732902D00B00F90865 /* SceneDelegate.swift */; };
-		ACCABF762902D00B00F90865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABF752902D00B00F90865 /* ViewController.swift */; };
-		ACCABF792902D00B00F90865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCABF772902D00B00F90865 /* Main.storyboard */; };
 		ACCABF7B2902D00B00F90865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCABF7A2902D00B00F90865 /* Assets.xcassets */; };
 		ACCABF7E2902D00B00F90865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCABF7C2902D00B00F90865 /* LaunchScreen.storyboard */; };
+		ACCABF862902D46F00F90865 /* HomePagBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCABF852902D46F00F90865 /* HomePagBank.swift */; };
+		ACDB5EFF29096C9E00A36F7C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB5EFD29096C9E00A36F7C /* CustomTableViewCell.swift */; };
+		ACDB5F0029096C9E00A36F7C /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDB5EFE29096C9E00A36F7C /* CustomTableViewCell.xib */; };
+		ACDB5F022909AAC900A36F7C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB5F012909AAC900A36F7C /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACCABF6E2902D00B00F90865 /* PagBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCABF712902D00B00F90865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCABF732902D00B00F90865 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACCABF752902D00B00F90865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACCABF782902D00B00F90865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACCABF7A2902D00B00F90865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCABF7D2902D00B00F90865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCABF7F2902D00B00F90865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCABF852902D46F00F90865 /* HomePagBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagBank.swift; sourceTree = "<group>"; };
+		ACDB5EFD29096C9E00A36F7C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		ACDB5EFE29096C9E00A36F7C /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		ACDB5F012909AAC900A36F7C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				ACCABF712902D00B00F90865 /* AppDelegate.swift */,
 				ACCABF732902D00B00F90865 /* SceneDelegate.swift */,
-				ACCABF752902D00B00F90865 /* ViewController.swift */,
-				ACCABF772902D00B00F90865 /* Main.storyboard */,
 				ACCABF7A2902D00B00F90865 /* Assets.xcassets */,
 				ACCABF7C2902D00B00F90865 /* LaunchScreen.storyboard */,
 				ACCABF7F2902D00B00F90865 /* Info.plist */,
+				ACCABF852902D46F00F90865 /* HomePagBank.swift */,
+				ACDB5EFD29096C9E00A36F7C /* CustomTableViewCell.swift */,
+				ACDB5EFE29096C9E00A36F7C /* CustomTableViewCell.xib */,
+				ACDB5F012909AAC900A36F7C /* CustomCollectionViewCell.swift */,
 			);
 			path = PagBank;
 			sourceTree = "<group>";
@@ -127,7 +133,7 @@
 			files = (
 				ACCABF7E2902D00B00F90865 /* LaunchScreen.storyboard in Resources */,
 				ACCABF7B2902D00B00F90865 /* Assets.xcassets in Resources */,
-				ACCABF792902D00B00F90865 /* Main.storyboard in Resources */,
+				ACDB5F0029096C9E00A36F7C /* CustomTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCABF762902D00B00F90865 /* ViewController.swift in Sources */,
+				ACCABF862902D46F00F90865 /* HomePagBank.swift in Sources */,
+				ACDB5F022909AAC900A36F7C /* CustomCollectionViewCell.swift in Sources */,
 				ACCABF722902D00B00F90865 /* AppDelegate.swift in Sources */,
+				ACDB5EFF29096C9E00A36F7C /* CustomTableViewCell.swift in Sources */,
 				ACCABF742902D00B00F90865 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACCABF772902D00B00F90865 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACCABF782902D00B00F90865 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACCABF7C2902D00B00F90865 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +291,6 @@
 				INFOPLIST_FILE = PagBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +317,6 @@
 				INFOPLIST_FILE = PagBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
